@@ -1,0 +1,112 @@
+
+/*process start*/
+
+.process__title {
+    margin-bottom: 50px;
+    font-size: 148px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+}
+
+.process__subtitle {
+    margin-bottom: 90px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+.process__item {
+    padding: 30px 30px 15px;
+    height: 100%;
+    min-height: 150px;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+/*process end*/
+
+/*contacts start*/
+
+.contacts {
+    padding: 100px 0;
+    background-color: #171616;
+}
+
+.contacts .block__title {
+    margin-bottom: 40px;
+}
+.contacts__form {
+    max-width: 440px;
+}
+
+.form__row {
+    margin: 0 -20px;
+    display: flex;
+
+}
+
+.form__group {
+    margin-bottom: 30px;
+    padding: 0 20px;
+    flex: 1;
+    position: relative;
+
+}
+.input {
+    width: 100%;
+    padding: 9px 0;
+    outline: 0;
+    border: 0;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 15px;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+}
+
+.input:focus + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.input:not(:placeholder-shown) + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.label {
+    letter-spacing: 0.15em;
+    color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    pointer-events: none;
+    transition: all .2s ease;
+}
+
+.textarea {
+    min-height: 130px;
+    width: 100%;
+    padding: 9px 0;
+    resize: vertical;
+    outline: 0;
+    border: 0;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 15px;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+}
+
+.textarea:focus + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.textarea:not(:placeholder-shown) + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+/*contacts end*/

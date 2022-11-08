@@ -1,0 +1,34 @@
+
+.block__title {
+    margin-bottom: 15px;
+    font-size: 30px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+.block__title.text-white {
+    color: #ffffff;
+
+}
+.block__link {
+    margin-bottom: 60px;
+    display: inline-block;
+    letter-spacing: 0.15em;
+    color: #000000;
+    text-transform: uppercase;
+}
+.block__link:hover {
+    text-decoration: none;
+}
+.wrapper {
+    display: flex;
+    margin: 0 -10px;
+}
+.block {
+    width: 33.333%;
+    padding: 0 10px;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+/*block end*/
